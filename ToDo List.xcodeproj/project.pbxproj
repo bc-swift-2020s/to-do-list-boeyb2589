@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA66595D2414581A0082E86C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA66595C2414581A0082E86C /* ListTableViewCell.swift */; };
 		CAC5182223F0C0500096C4F0 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5182123F0C0500096C4F0 /* ToDoItem.swift */; };
 		CAE56E7B23F08AE800F76068 /* ToDoDetailTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE56E7A23F08AE800F76068 /* ToDoDetailTableTableViewController.swift */; };
 		CAFDE9C223EF5FEF00584A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFDE9C123EF5FEF00584A39 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA66595C2414581A0082E86C /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		CAC5182123F0C0500096C4F0 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		CAE56E7A23F08AE800F76068 /* ToDoDetailTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableTableViewController.swift; sourceTree = "<group>"; };
 		CAFDE9BE23EF5FEF00584A39 /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 				CAC5182123F0C0500096C4F0 /* ToDoItem.swift */,
 				CAFDE9C523EF5FEF00584A39 /* ToDoListViewController.swift */,
 				CAE56E7A23F08AE800F76068 /* ToDoDetailTableTableViewController.swift */,
+				CA66595C2414581A0082E86C /* ListTableViewCell.swift */,
 				CAFDE9C723EF5FEF00584A39 /* Main.storyboard */,
 				CAFDE9CA23EF5FF300584A39 /* Assets.xcassets */,
 				CAFDE9CC23EF5FF300584A39 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				CAC5182223F0C0500096C4F0 /* ToDoItem.swift in Sources */,
 				CAFDE9C423EF5FEF00584A39 /* SceneDelegate.swift in Sources */,
 				CAE56E7B23F08AE800F76068 /* ToDoDetailTableTableViewController.swift in Sources */,
+				CA66595D2414581A0082E86C /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

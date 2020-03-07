@@ -19,7 +19,7 @@ class ListTableViewCell: UITableViewCell {
     
     var toDoItem: ToDoItem! {
         didSet {
-            nameLabel.text = ToDoItem.name
+            nameLabel.text = toDoItem.name
             checkBoxButton.isSelected = toDoItem.completed
         }
     }

@@ -16,6 +16,14 @@ class ListTableViewCell: UITableViewCell {
     weak var delegate: ListTableViewCellDelegate?
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var checkBoxButton: UIButton!
+    
+    var toDoItem: ToDoItem! {
+        didSet {
+            nameLabel.text = ToDoItem.name
+            checkBoxButton.isSelected = toDoItem.completed
+        }
+    }
+    
     @IBAction func checkToggled(_ sender: UIButton) {
         delegate?.checkBoxToggle(sender: self)
     }

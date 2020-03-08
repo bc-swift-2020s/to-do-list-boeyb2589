@@ -64,7 +64,7 @@ struct LocalNotificationManager {
         
         //register request with the notification center
         UNUserNotificationCenter.current().add(request) { (error) in
-            if let error = error {
+            if error != nil {
                 print("Error")
             } else {
                 print("Notification scheduled \(notificationID), title: \(content.title)")
